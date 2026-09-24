@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VIKAS Billing</string>
+    <string name="app_version">1.0.0</string>
+    
+    <!-- Login Screen -->
+    <string name="welcome">Welcome to VIKAS Billing App</string>
+    <string name="login_subtitle">Billing &amp; Inventory Management for VIKAS CLOTH HOUSE</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_in_required">Please sign in to continue</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard">Dashboard</string>
+    <string name="hello_user">Hello, %s</string>
+    <string name="todays_sales">Today\'s Sales</string>
+    <string name="total_bills">Total Bills</string>
+    <string name="total_revenue">Total Revenue</string>
+    <string name="quick_actions">Quick Actions</string>
+    
+    <!-- Billing -->
+    <string name="new_bill">New Bill</string>
+    <string name="create_bill">Create Bill</string>
+    <string name="add_item">Add Item</string>
+    <string name="item_name">Item Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="unit_price">Unit Price</string>
+    <string name="gst">GST</string>
+    <string name="total">Total</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="discount">Discount</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="cash">Cash</string>
+    <string name="upi">UPI</string>
+    <string name="card">Card</string>
+    <string name="save_bill">Save Bill</string>
+    <string name="bill_saved">Bill saved successfully!</string>
+    <string name="bill_deleted">Bill deleted successfully!</string>
+    <string name="view_bill">View Bill</string>
+    <string name="edit_bill">Edit Bill</string>
+    <string name="delete_bill">Delete Bill</string>
+    
+    <!-- Inventory -->
+    <string name="inventory">Inventory</string>
+    <string name="add_item_inventory">Add Item</string>
+    <string name="item_code">Item Code</string>
+    <string name="cost_price">Cost Price</string>
+    <string name="selling_price">Selling Price</string>
+    <string name="stock">Stock</string>
+    <string name="low_stock">Low Stock Alert</string>
+    <string name="reorder_point">Reorder Point</string>
+    <string name="category">Category</string>
+    <string name="update_stock">Update Stock</string>
+    <string name="item_added">Item added to inventory!</string>
+    <string name="item_updated">Item updated successfully!</string>
+    <string name="item_deleted">Item deleted successfully!</string>
+    
+    <!-- Reports -->
+    <string name="reports">Reports</string>
+    <string name="daily_report">Daily Report</string>
+    <string name="monthly_report">Monthly Report</string>
+    <string name="select_date">Select Date</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="generate_report">Generate Report</string>
+    <string name="export_report">Export Report</string>
+    <string name="no_data">No data available</string>
+    
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="shop_details">Shop Details</string>
+    <string name="gst_number">GST Number</string>
+    <string name="pan_number">PAN Number</string>
+    <string name="shop_name">Shop Name</string>
+    <string name="shop_address">Shop Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="profile">Profile</string>
+    <string name="subscription">Subscription</string>
+    <string name="account">Account</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="confirm_sign_out">Are you sure you want to sign out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <!-- Subscription -->
+    <string name="subscription_plans">Subscription Plans</string>
+    <string name="free_plan">Free Plan</string>
+    <string name="basic_plan">Basic Plan</string>
+    <string name="pro_plan">Pro Plan</string>
+    <string name="enterprise_plan">Enterprise Plan</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="cancel_subscription">Cancel Subscription</string>
+    <string name="subscription_active">Active</string>
+    <string name="subscription_expired">Expired</string>
+    <string name="renew">Renew</string>
+    <string name="per_month">per month</string>
+    <string name="per_year">per year</string>
+    
+    <!-- Errors -->
+    <string name="error_network">Network error. Please check your internet connection.</string>
+    <string name="error_auth">Authentication failed. Please try again.</string>
+    <string name="error_firebase">Database error. Please try again.</string>
+    <string name="error_invalid_input">Please fill all required fields.</string>
+    <string name="error_empty_bill">Cannot save empty bill. Please add items.</string>
+    
+    <!-- Validation -->
+    <string name="field_required">This field is required</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="invalid_phone">Please enter a valid phone number</string>
+    <string name="invalid_gst">Please enter a valid GST number</string>
+    
+    <!-- Success Messages -->
+    <string name="success_saved">Saved successfully!</string>
+    <string name="success_updated">Updated successfully!</string>
+    <string name="success_deleted">Deleted successfully!</string>
+    
+    <!-- Other -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="view">View</string>
+    <string name="search">Search</string>
+    <string name="loading">Loading...</string>
+    <string name="default_web_client_id">YOUR_GOOGLE_CLIENT_ID</string>
+</resources>

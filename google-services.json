@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "290659140383",
+    "project_id": "viakasbillingapp",
+    "storage_bucket": "viakasbillingapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290659140383:android:99e5a4a7b02d51d4f4662a",
+        "android_client_info": {
+          "package_name": "com.vikas.billing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdJm2nMNBYOGcBwycx_ua5vQf7sgi3tLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
