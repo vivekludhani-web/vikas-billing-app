@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VIKAS Billing</string>
+    <string name="app_subtitle">Inventory & Billing Management</string>
+    <string name="sign_in_with_google">Sign In with Google</string>
+    <string name="login_status_default">Please sign in to continue</string>
+    <string name="sign_in_success">Welcome back!</string>
+    <string name="sign_in_failed">Sign in failed</string>
+</resources>
