@@ -21,6 +21,11 @@ jobs:
     - name: Make gradlew executable
       run: chmod +x ./gradlew
     
+    - name: Regenerate Gradle Wrapper
+      run: |
+        gradle wrapper --gradle-version 8.5 --distribution-type bin
+        chmod +x ./gradlew
+    
     - name: Build Debug APK
       env:
         GRADLE_OPTS: "-Dkotlin.gradle.plugin.statistics=false -Dorg.gradle.unsafe.isolation=false -Xmx2048m"
