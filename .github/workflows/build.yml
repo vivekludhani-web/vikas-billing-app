@@ -17,7 +17,7 @@ jobs:
         cache: gradle
     - name: Generate gradle wrapper
       run: |
-        gradle wrapper --gradle-version 8.5.0 --distribution-type bin
+        gradle wrapper --gradle-version 7.6.3 --distribution-type bin
     - name: Make gradlew executable
       run: chmod +x ./gradlew
     - name: Build Debug APK
