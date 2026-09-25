@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">VIKAS Billing</string>
+    <string name="app_subtitle">Billing and Inventory</string>
     <string name="hello">Hello World!</string>
     <string name="login_button">Login with Google</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
     <string name="logout_button">Logout</string>
     <string name="create_bill">Create Bill</string>
     <string name="app_title">VIKAS Billing App</string>
