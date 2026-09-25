@@ -17,10 +17,11 @@ jobs:
         cache: gradle
     - name: Download gradle-wrapper.jar if missing
       run: |
-        if [ ! -f gradle/wrapper/gradle-wrapper.jar ]; then
-          mkdir -p gradle/wrapper
-          curl -L "https://raw.githubusercontent.com/gradle/gradle/v8.5.0/gradle/wrapper/gradle-wrapper.jar" -o gradle/wrapper/gradle-wrapper.jar
-        fi
+        mkdir -p gradle/wrapper
+        wget --quiet "https://github.com/gradle/gradle/releases/download/v8.5.0/gradle-8.5.0-bin.zip" -O /tmp/gradle.zip
+        unzip -q /tmp/gradle.zip "gradle-8.5.0/gradle/wrapper/gradle-wrapper.jar" -d /tmp/
+        cp /tmp/gradle-8.5.0/gradle/wrapper/gradle-wrapper.jar gradle/wrapper/
+        rm -rf /tmp/gradle* 
     - name: Make gradlew executable
       run: chmod +x ./gradlew
     - name: Build Debug APK
